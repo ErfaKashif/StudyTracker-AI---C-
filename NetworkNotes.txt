@@ -1,0 +1,57 @@
+Computer Networks Study Notes
+
+IP Address - A unique numerical identifier assigned to each device on a network, enabling communication between devices.
+
+MAC Address - A hardware address that uniquely identifies each network interface card, used for communication at the data link layer.
+
+Router - A networking device that forwards data packets between computer networks, determining the best path for data transmission.
+
+Q: What is the OSI model?
+A: The OSI model is a conceptual framework with seven layers that standardizes network communication functions, from physical transmission to application-level services.
+
+Q: What is TCP/IP?
+A: TCP/IP is a suite of communication protocols used to interconnect network devices on the internet, combining Transport Control Protocol and Internet Protocol.
+
+Q: What is the difference between TCP and UDP?
+A: TCP is connection-oriented and guarantees reliable data delivery with error checking, while UDP is connectionless and offers faster but unreliable transmission.
+
+1. DNS: Domain Name System translates human-readable domain names into IP addresses that computers use to identify each other on networks.
+
+2. HTTP: Hypertext Transfer Protocol is an application-layer protocol used for transmitting hypermedia documents on the World Wide Web.
+
+3. Firewall: A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.
+
+4. Subnet Mask: A 32-bit number that divides an IP address into network and host portions, determining which devices are on the same local network.
+
+**Bandwidth**: The maximum rate of data transfer across a network path, typically measured in bits per second.
+
+**Latency**: The time delay between sending data from source to destination, affecting network performance and user experience.
+
+**Protocol**: A set of rules and standards that define how data is transmitted and received over a network.
+
+Network Topologies:
+
+Star Topology: A network configuration where all devices connect to a central hub or switch, providing easy troubleshooting but creating a single point of failure.
+
+Bus Topology: A network layout where all devices share a single communication line, simple but prone to collisions and difficult to troubleshoot.
+
+Ring Topology: A network structure where each device connects to exactly two other devices, forming a circular pathway for data transmission.
+
+Q: What is DHCP?
+A: Dynamic Host Configuration Protocol automatically assigns IP addresses and network configuration parameters to devices on a network.
+
+Q: What is a gateway?
+A: A gateway is a network node that serves as an access point to another network, often performing protocol translation between different network architectures.
+
+Security Concepts:
+
+Encryption: The process of converting plaintext data into ciphertext to prevent unauthorized access during transmission or storage.
+
+VPN: Virtual Private Network creates a secure, encrypted connection over a less secure network like the internet, protecting data privacy.
+
+SSL/TLS: Secure Sockets Layer and Transport Layer Security are cryptographic protocols that provide secure communication over computer networks.
+
+Q: What is packet switching?
+A: Packet switching is a method of data transmission where data is broken into packets that are routed independently across the network and reassembled at the destination.
+
+**Port Number**: A numerical identifier in networking used to distinguish different services or applications running on the same device.

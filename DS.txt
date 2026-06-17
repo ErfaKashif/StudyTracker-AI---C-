@@ -1,0 +1,103 @@
+Data Structures Study Notes
+
+Array - A fixed-size collection of elements of the same type stored in contiguous memory locations, allowing constant-time random access.
+
+Linked List - A linear data structure where elements are stored in nodes, with each node containing data and a pointer to the next node.
+
+Stack - A Last-In-First-Out (LIFO) data structure where elements are added and removed from the same end called the top.
+
+Queue - A First-In-First-Out (FIFO) data structure where elements are added at the rear and removed from the front.
+
+Q: What is a Binary Search Tree?
+A: A Binary Search Tree is a tree data structure where each node has at most two children, with left subtree values less than the node and right subtree values greater than the node.
+
+Q: What is the time complexity of binary search?
+A: Binary search has O(log n) time complexity for searching in a sorted array, as it divides the search space in half with each comparison.
+
+Q: What is the difference between stack and queue?
+A: Stack follows LIFO (Last-In-First-Out) principle where the last element added is removed first, while Queue follows FIFO (First-In-First-Out) where the first element added is removed first.
+
+1. Hash Table: A data structure that maps keys to values using a hash function, providing average O(1) time complexity for insertion, deletion, and search operations.
+
+2. Tree Traversal: The process of visiting all nodes in a tree systematically, with common methods being Inorder, Preorder, Postorder, and Level Order.
+
+3. Graph: A non-linear data structure consisting of vertices (nodes) connected by edges, used to represent networks and relationships.
+
+4. Heap: A complete binary tree where parent nodes are either greater than or equal to (max heap) or less than or equal to (min heap) their children.
+
+**Time Complexity**: A measure of the amount of time an algorithm takes to run as a function of input size, expressed using Big O notation.
+
+**Space Complexity**: The amount of memory space required by an algorithm to execute, including both auxiliary space and input space.
+
+**Recursion**: A programming technique where a function calls itself to solve smaller instances of the same problem until reaching a base case.
+
+Linear Data Structures:
+
+Array Implementation: Elements stored in contiguous memory with fixed size, providing O(1) access time but O(n) insertion and deletion in worst case.
+
+Singly Linked List: Each node contains data and a pointer to the next node, allowing dynamic size but requiring O(n) time for accessing elements.
+
+Doubly Linked List: Each node has pointers to both next and previous nodes, enabling bidirectional traversal but requiring extra memory for two pointers.
+
+Q: What is a priority queue?
+A: A priority queue is an abstract data type where each element has a priority, and elements with higher priority are dequeued before elements with lower priority.
+
+Q: What is the purpose of hashing?
+A: Hashing converts keys into array indices using a hash function, enabling fast data retrieval with average O(1) time complexity for search, insert, and delete operations.
+
+Tree Concepts:
+
+AVL Tree: A self-balancing binary search tree where the height difference between left and right subtrees is at most one, ensuring O(log n) operations.
+
+Binary Tree: A tree data structure where each node has at most two children referred to as left child and right child.
+
+Complete Binary Tree: A binary tree where all levels are fully filled except possibly the last level, which is filled from left to right.
+
+Q: What is collision resolution in hashing?
+A: Collision resolution handles situations where two keys hash to the same index, using techniques like chaining (linked lists) or open addressing (linear probing, quadratic probing).
+
+Q: What is the difference between BFS and DFS?
+A: BFS (Breadth-First Search) explores nodes level by level using a queue, while DFS (Depth-First Search) explores as deep as possible before backtracking using a stack.
+
+Sorting Algorithms:
+
+Bubble Sort: A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if in wrong order, with O(n²) time complexity.
+
+Merge Sort: A divide-and-conquer algorithm that divides array into halves, recursively sorts them, and merges sorted halves with O(n log n) time complexity.
+
+Quick Sort: An efficient divide-and-conquer algorithm that selects a pivot, partitions array around it, and recursively sorts partitions with O(n log n) average time.
+
+**Big O Notation**: A mathematical notation describing the upper bound of an algorithm's time or space complexity in terms of input size.
+
+**Balanced Tree**: A tree structure where the height difference between left and right subtrees is minimized, ensuring optimal search performance.
+
+**Adjacency Matrix**: A 2D array representation of a graph where rows and columns represent vertices and cell values indicate edge presence or weight.
+
+Q: What is a circular queue?
+A: A circular queue is a linear data structure where the last position connects back to the first position, efficiently utilizing memory by reusing empty spaces.
+
+Q: What are the applications of stack?
+A: Stack applications include function call management, expression evaluation (postfix/prefix), backtracking algorithms, undo mechanisms, and browser history management.
+
+1. Trie: A tree-like data structure used for storing strings where each node represents a character, enabling efficient prefix-based searching.
+
+2. Segment Tree: A tree data structure for storing intervals or segments, allowing efficient range query operations in O(log n) time.
+
+3. Disjoint Set: A data structure that keeps track of elements partitioned into non-overlapping sets, supporting union and find operations efficiently.
+
+4. Red-Black Tree: A self-balancing binary search tree with properties ensuring the tree remains balanced, guaranteeing O(log n) operations.
+
+Q: What is dynamic programming?
+A: Dynamic programming is an optimization technique that solves complex problems by breaking them into simpler overlapping subproblems and storing results to avoid redundant calculations.
+
+**Graph Traversal**: The process of visiting all vertices in a graph systematically, typically using BFS for level-order or DFS for depth-first exploration.
+
+**Linked List vs Array**: Linked lists offer dynamic size and efficient insertion/deletion but no random access, while arrays provide fast random access but fixed size and costly insertions.
+
+Heap Operations:
+
+Heapify: The process of converting a binary tree into a heap by adjusting node positions to satisfy the heap property, performed in O(log n) time.
+
+Heap Sort: A comparison-based sorting algorithm that builds a max heap and repeatedly extracts the maximum element, achieving O(n log n) time complexity.
+
+Priority Queue Implementation: Heaps efficiently implement priority queues, with insert in O(log n) and extract-min/max in O(log n) time complexity.

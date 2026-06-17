@@ -1,0 +1,149 @@
+[FLASHCARDS]
+F1764773952888|Data Structures|A stupid Question|A stupid answer|unknown
+F1764773972703|COAL|What is offset|address refrence|unknown
+F176478081678|COMPUTER NETWORKS|What is IP Address?|A unique numerical identifier assigned to each device on a network, enabling communication between devices.|auto-generated
+F1764780816580|COMPUTER NETWORKS|What is MAC Address?|A hardware address that uniquely identifies each network interface card, used for communication at the data link layer.|auto-generated
+F1764780816679|COMPUTER NETWORKS|What is Router?|A networking device that forwards data packets between computer networks, determining the best path for data transmission.|auto-generated
+F1764780816501|COMPUTER NETWORKS|What is 1. DNS?|Domain Name System translates human-readable domain names into IP addresses that computers use to identify each other on networks.|auto-generated
+F1764780816864|COMPUTER NETWORKS|What is 2. HTTP?|Hypertext Transfer Protocol is an application-layer protocol used for transmitting hypermedia documents on the World Wide Web.|auto-generated
+F1764780816979|COMPUTER NETWORKS|What is 3. Firewall?|A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.|auto-generated
+F1764780816255|COMPUTER NETWORKS|What is 4. Subnet Mask?|A 32-bit number that divides an IP address into network and host portions, determining which devices are on the same local network.|auto-generated
+F1764780816537|COMPUTER NETWORKS|What is **Bandwidth**?|The maximum rate of data transfer across a network path, typically measured in bits per second.|auto-generated
+F1764780816829|COMPUTER NETWORKS|What is **Latency**?|The time delay between sending data from source to destination, affecting network performance and user experience.|auto-generated
+F176478081660|COMPUTER NETWORKS|What is **Protocol**?|A set of rules and standards that define how data is transmitted and received over a network.|auto-generated
+F1764780816872|COMPUTER NETWORKS|What is Star Topology?|A network configuration where all devices connect to a central hub or switch, providing easy troubleshooting but creating a single point of failure.|auto-generated
+F1764780816136|COMPUTER NETWORKS|What is Bus Topology?|A network layout where all devices share a single communication line, simple but prone to collisions and difficult to troubleshoot.|auto-generated
+F1764780816820|COMPUTER NETWORKS|What is Ring Topology?|A network structure where each device connects to exactly two other devices, forming a circular pathway for data transmission.|auto-generated
+F1764780816982|COMPUTER NETWORKS|What is Encryption?|The process of converting plaintext data into ciphertext to prevent unauthorized access during transmission or storage.|auto-generated
+F1764780816481|COMPUTER NETWORKS|What is VPN?|Virtual Private Network creates a secure, encrypted connection over a less secure network like the internet, protecting data privacy.|auto-generated
+F1764780816236|COMPUTER NETWORKS|What is SSL/TLS?|Secure Sockets Layer and Transport Layer Security are cryptographic protocols that provide secure communication over computer networks.|auto-generated
+F1764780816742|COMPUTER NETWORKS|What is **Port Number**?|A numerical identifier in networking used to distinguish different services or applications running on the same device.|auto-generated
+F1764780816196|COMPUTER NETWORKS|What is the OSI model?|The OSI model is a conceptual framework with seven layers that standardizes network communication functions, from physical transmission to application-level services.|auto-generated
+F1764780816391|COMPUTER NETWORKS|What is TCP/IP?|TCP/IP is a suite of communication protocols used to interconnect network devices on the internet, combining Transport Control Protocol and Internet Protocol.|auto-generated
+F1764780816782|COMPUTER NETWORKS|What is the difference between TCP and UDP?|TCP is connection-oriented and guarantees reliable data delivery with error checking, while UDP is connectionless and offers faster but unreliable transmission.|auto-generated
+F1764780816811|COMPUTER NETWORKS|What is DHCP?|Dynamic Host Configuration Protocol automatically assigns IP addresses and network configuration parameters to devices on a network.|auto-generated
+F1764780816467|COMPUTER NETWORKS|What is a gateway?|A gateway is a network node that serves as an access point to another network, often performing protocol translation between different network architectures.|auto-generated
+F176478081647|COMPUTER NETWORKS|What is packet switching?|Packet switching is a method of data transmission where data is broken into packets that are routed independently across the network and reassembled at the destination.|auto-generated
+F1764780816575|COMPUTER NETWORKS|What is DNS?|Domain Name System translates human-readable domain names into IP addresses that computers use to identify each other on networks.|auto-generated
+F1764780816928|COMPUTER NETWORKS|What is HTTP?|Hypertext Transfer Protocol is an application-layer protocol used for transmitting hypermedia documents on the World Wide Web.|auto-generated
+F1764780816250|COMPUTER NETWORKS|What is Firewall?|A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.|auto-generated
+F1764780816572|COMPUTER NETWORKS|What is Subnet Mask?|A 32-bit number that divides an IP address into network and host portions, determining which devices are on the same local network.|auto-generated
+F1764824051702|COAL|What is Data Structures Notes?|Covers arrays, linked lists, stacks, queues, trees, graphs, sorting algorithms, searching, hashing, and complexity analysis|auto-generated
+F1764824051794|COAL|What is Introduction to Software Engineering Notes?|Covers SDLC, software process models (Waterfall, Agile, Spiral, etc.), requirements engineering, design principles, UML diagrams, testing, quality assurance, and project management|auto-generated
+F1764824051333|COAL|What is Theory of Automata Notes?|Includes finite automata (DFA/NFA), regular expressions, context-free grammars, pushdown automata, Turing machines, Chomsky hierarchy, and decidability|auto-generated
+F1764824051999|COAL|What is A particular delimiter or separator (like?|: or ---)?|auto-generated
+F1764824051654|COAL|What is Computer Organization?|Physical aspects of computer systems|auto-generated
+F1764824051359|COAL|What is Computer Architecture?|Functional behavior and design|auto-generated
+F1764824051526|COAL|What is - Decimal to Binary?|Divide by 2, collect remainders|auto-generated
+F1764824051764|COAL|What is - Binary to Decimal?|Multiply each bit by 2^position|auto-generated
+F1764824051701|COAL|What is - Binary to Hex?|Group 4 bits, convert each group|auto-generated
+F1764824051363|COAL|What is - Hex to Binary?|Convert each hex digit to 4 bits|auto-generated
+F1764824051811|COAL|What is - Addition?|0+0=0, 0+1=1, 1+0=1, 1+1=10|auto-generated
+F1764824051126|COAL|What is - Subtraction?|Use 2's complement|auto-generated
+F1764824051233|COAL|What is - Multiplication?|Shift and add|auto-generated
+F1764824051145|COAL|What is - Division?|Shift and subtract|auto-generated
+F1764824051262|COAL|What is a) Sign-Magnitude?|MSB is sign bit|auto-generated
+F1764824051829|COAL|What is b) 1's Complement?|Invert all bits for negative|auto-generated
+F1764824051939|COAL|What is c) 2's Complement?|1's complement + 1 (most common)|auto-generated
+F1764824051853|COAL|What is - Range?|-2^(n-1) to 2^(n-1)-1|auto-generated
+F1764824051390|COAL|What is - AND?|Output 1 if all inputs are 1|auto-generated
+F176482405172|COAL|What is - OR?|Output 1 if any input is 1|auto-generated
+F1764824051532|COAL|What is - NOT?|Inverts input|auto-generated
+F1764824051538|COAL|What is - NAND?|NOT-AND (universal gate)|auto-generated
+F1764824051499|COAL|What is - NOR?|NOT-OR (universal gate)|auto-generated
+F1764824051445|COAL|What is - XOR?|Output 1 if inputs are different|auto-generated
+F1764824051850|COAL|What is - XNOR?|Output 1 if inputs are same|auto-generated
+F1764824051695|COAL|What is - Identity?|A + 0 = A, A · 1 = A|auto-generated
+F1764824051682|COAL|What is - Null?|A + 1 = 1, A · 0 = 0|auto-generated
+F1764824051445|COAL|What is - Idempotent?|A + A = A, A · A = A|auto-generated
+F1764824051806|COAL|What is - Complement?|A + A' = 1, A · A' = 0|auto-generated
+F1764824051671|COAL|What is - Commutative?|A + B = B + A|auto-generated
+F1764824051713|COAL|What is - Associative?|(A + B) + C = A + (B + C)|auto-generated
+F1764824051635|COAL|What is - Distributive?|A(B + C) = AB + AC|auto-generated
+F17648240518|COAL|What is - De Morgan's?|(A + B)' = A' · B', (A · B)' = A' + B'|auto-generated
+F1764824051672|COAL|What is * General Purpose?|AX, BX, CX, DX (in x86)|auto-generated
+F1764824052566|COAL|What is * Special Purpose?|IP, SP, BP, SI, DI|auto-generated
+F1764824052686|COAL|What is * Segment?|CS, DS, SS, ES|auto-generated
+F176482405237|COAL|What is * Flags?|Status flags (ZF, CF, SF, OF, PF, AF)|auto-generated
+F1764824052958|COAL|What is - RAM (Random Access Memory)?|Volatile, fast|auto-generated
+F176482405291|COAL|What is * SRAM?|Faster, expensive (cache)|auto-generated
+F1764824052693|COAL|What is * DRAM?|Slower, cheaper (main memory)|auto-generated
+F176482405248|COAL|What is - ROM (Read-Only Memory)?|Non-volatile|auto-generated
+F1764824052881|COAL|What is - Physical Address?|Actual hardware address|auto-generated
+F1764824052924|COAL|What is - Logical Address?|Generated by CPU|auto-generated
+F1764824052923|COAL|What is - Segmented Memory?|Segment:Offset addressing|auto-generated
+F1764824052862|COAL|What is - Sequential Access?|Tape drives|auto-generated
+F1764824052645|COAL|What is - Direct Access?|Hard disks|auto-generated
+F1764824052820|COAL|What is - Opcode?|Operation to perform|auto-generated
+F1764824052540|COAL|What is - Operands?|Data or addresses|auto-generated
+F1764824052278|COAL|What is a) Immediate?|Operand is constant (MOV AL, 5)|auto-generated
+F1764824052321|COAL|What is b) Register?|Operand in register (MOV AL, BL)|auto-generated
+F1764824052341|COAL|What is c) Direct?|Address given directly (MOV AL, [1234h])|auto-generated
+F1764824052838|COAL|What is d) Indirect?|Address in register (MOV AL, [BX])|auto-generated
+F1764824052593|COAL|What is e) Indexed?|Base + Index (MOV AL, [BX+SI])|auto-generated
+F1764824052282|COAL|What is f) Based?|Base + Displacement (MOV AL, [BX+10])|auto-generated
+F1764824052406|COAL|What is - Data Transfer?|MOV, PUSH, POP, XCHG|auto-generated
+F176482405219|COAL|What is - Arithmetic?|ADD, SUB, MUL, DIV, INC, DEC|auto-generated
+F1764824052566|COAL|What is - Logical?|AND, OR, XOR, NOT|auto-generated
+F1764824052352|COAL|What is - Shift/Rotate?|SHL, SHR, ROL, ROR|auto-generated
+F1764824052562|COAL|What is - Control?|JMP, CALL, RET, INT|auto-generated
+F1764824052318|COAL|What is - String?|MOVS, CMPS, SCAS|auto-generated
+F1764824052402|COAL|What is - AX?|Accumulator (AH:AL)|auto-generated
+F1764824052856|COAL|What is - BX?|Base (BH:BL)|auto-generated
+F176482405271|COAL|What is - CX?|Counter (CH:CL)|auto-generated
+F1764824052220|COAL|What is - DX?|Data (DH:DL)|auto-generated
+F1764824052838|COAL|What is - SI?|Source Index|auto-generated
+F1764824052708|COAL|What is - DI?|Destination Index|auto-generated
+F1764824052692|COAL|What is - BP?|Base Pointer|auto-generated
+F1764824052821|COAL|What is - SP?|Stack Pointer|auto-generated
+F1764824052841|COAL|What is - IP?|Instruction Pointer|auto-generated
+F1764824052929|COAL|What is - FLAGS?|Status flags|auto-generated
+F1764824052414|COAL|What is - DB?|Define Byte (8-bit)|auto-generated
+F1764824052962|COAL|What is - DW?|Define Word (16-bit)|auto-generated
+F1764824052759|COAL|What is - DD?|Define Double Word (32-bit)|auto-generated
+F1764824052919|COAL|What is - CF (Carry Flag)?|Set on arithmetic carry/borrow|auto-generated
+F1764824052237|COAL|What is - PF (Parity Flag)?|Set if even number of 1s|auto-generated
+F1764824052378|COAL|What is - AF (Auxiliary Flag)?|BCD arithmetic|auto-generated
+F1764824052914|COAL|What is - ZF (Zero Flag)?|Set if result is zero|auto-generated
+F1764824052790|COAL|What is - SF (Sign Flag)?|Set if result is negative|auto-generated
+F1764824052939|COAL|What is - OF (Overflow Flag)?|Signed arithmetic overflow|auto-generated
+F176482405280|COAL|What is - DF (Direction Flag)?|String operation direction|auto-generated
+F1764824052288|COAL|What is - IF (Interrupt Flag)?|Enable/disable interrupts|auto-generated
+F1764824052671|COAL|What is - TF (Trap Flag)?|Single-step mode|auto-generated
+F176482405228|COAL|What is - Macro?|Code expansion (inline)|auto-generated
+F1764824052383|COAL|What is - Procedure?|Single code copy (call overhead)|auto-generated
+F1764824052485|COAL|What is Stack?|LIFO data structure|auto-generated
+F1764824052720|COAL|What is PUSH AX       ; SP = SP?|2, [SP] = AX|auto-generated
+F1764824052276|COAL|What is Interrupt?|Signal to CPU to stop and execute ISR|auto-generated
+F1764824052489|COAL|What is a) Hardware Interrupts?|External devices (IRQ)|auto-generated
+F1764824052691|COAL|What is b) Software Interrupts?|INT instruction|auto-generated
+F1764824052493|COAL|What is c) Exceptions?|CPU-generated (divide by zero)|auto-generated
+F1764824052462|COAL|What is - AH=01h?|Read character|auto-generated
+F1764824052555|COAL|What is - AH=02h?|Write character|auto-generated
+F1764824052543|COAL|What is - AH=09h?|Display string|auto-generated
+F1764824052875|COAL|What is - AH=0Ah?|Buffered input|auto-generated
+F1764824052833|COAL|What is - AH=4Ch?|Terminate program|auto-generated
+F1764824052502|COAL|What is - INT 10h?|Video services|auto-generated
+F1764824052142|COAL|What is - INT 16h?|Keyboard services|auto-generated
+F176482405278|COAL|What is - INT 13h?|Disk services|auto-generated
+F1764824052912|COAL|What is a) Programmed I/O?|CPU polls device|auto-generated
+F1764824052762|COAL|What is b) Interrupt-driven I/O?|Device interrupts CPU|auto-generated
+F1764824052408|COAL|What is c) DMA?|Direct memory access without CPU|auto-generated
+F1764824052430|COAL|What is a) Structural?|Resource conflict|auto-generated
+F1764824052977|COAL|What is b) Data?|Data dependency|auto-generated
+F1764824052323|COAL|What is c) Control?|Branch instructions|auto-generated
+F1764824052236|COAL|What is - Temporal Locality?|Recently accessed data|auto-generated
+F176482405293|COAL|What is - Spatial Locality?|Nearby data|auto-generated
+F1764824052557|COAL|What is a) Direct Mapped?|Each block has one possible location|auto-generated
+F1764824052256|COAL|What is b) Fully Associative?|Block can go anywhere|auto-generated
+F1764824052348|COAL|What is c) Set Associative?|Compromise between above|auto-generated
+F1764824052660|COAL|What is a) Write-through?|Write to cache and memory|auto-generated
+F1764824052570|COAL|What is b) Write-back?|Write to cache, memory later|auto-generated
+F1764824052786|COAL|What is - Examples?|x86, x86-64|auto-generated
+F1764824052618|COAL|What is - Examples?|ARM, MIPS, RISC-V|auto-generated
+[TASKS]
+6
+3|Submit report|DS Final Project|0|0
+[SESSIONS]
+DDPYU|3|1
+CCNK3|7|1
